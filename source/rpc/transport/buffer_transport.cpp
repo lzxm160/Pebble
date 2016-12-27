@@ -26,7 +26,7 @@
 #include <limits>
 
 using std::string;
-
+using std::ptrdiff_t;
 namespace pebble { namespace rpc { namespace transport {
 
 void TMemoryBuffer::computeRead(uint32_t len, uint8_t** out_start, uint32_t* out_give)

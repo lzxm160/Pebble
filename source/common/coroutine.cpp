@@ -24,7 +24,7 @@
 #include <cstdio>
 #include <cstdlib>
 #include <iostream>
-
+using std::ptrdiff_t;
 class coroutine;
 
 struct coroutine {
