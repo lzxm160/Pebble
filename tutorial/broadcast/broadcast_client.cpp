@@ -17,7 +17,7 @@
 #include "source/rpc/rpc.h"
 #include "source/log/log.h"
 #include "tutorial/broadcast/idl/broadcast_tutorial_BroadcastTrigger_if.h"
-
+#include <unistd.h>
 void usage() {
     std::cout << "usage   : ./broadcast_client port" << std::endl
               << "default : port = 8123" << std::endl;
