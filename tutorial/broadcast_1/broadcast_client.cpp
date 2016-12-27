@@ -18,7 +18,7 @@
 #include "source/log/log.h"
 #include "tutorial/broadcast_1/idl/broadcast_tutorial_BroadcastTest_if.h"
 #include "tutorial/broadcast_1/idl/broadcast_tutorial_LoginService_if.h"
-
+#include <unistd.h>
 class BroadcastTestHandler : public broadcast::tutorial::BroadcastTestCobSvIf {
 public:
     void broadcast(const std::string& content) {
