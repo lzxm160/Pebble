@@ -15,7 +15,7 @@
 #include "source/message/http_driver.h"
 #include "source/message/message.h"
 #include "source/message/tcp_driver.h"
-
+#include <unistd.h>
 using namespace std;
 using namespace pebble::net;
 
